@@ -955,7 +955,41 @@ int main(){
 
    }
     */
-   
+
+/*
+*****                
+ ****
+  ***
+   **
+    *
+ int main(){
+    int n;
+    cin>>n;
+    int i=1;
+    while (i<=n)
+    {
+        int space =1;
+        while (space<=i-1)
+        {
+            cout <<" ";
+            space++;
+            
+        }
+        // star print karo.
+        int j=1;
+        while (j<=n-i+1)
+        {
+           cout <<"*";
+           j++;
+    
+        }
+        // space print karo
+    cout <<endl;
+    i++;
+    
+    }
+} 
+*/
 
    
    
