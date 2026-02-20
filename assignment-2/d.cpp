@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// print from L to R .
+// print from L to R.
 int main(){
     int l;
     int r;
