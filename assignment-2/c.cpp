@@ -1,17 +1,10 @@
-/* #include <iostream>
+#include <iostream>
 using namespace std;
 
-// print ass even numbers..
-
+// Print All Uppercase Alphabets
 int main(){
-    int n;
-    cin>>n;
-    for ( int i = 1; i <= n; i++)
-    {
-        if(i%2==0){
-            cout<< i <<" ";
-        }
+    int L = 'A', R = 'Z';
+    for(int i=L; i<=R;i++){
+        cout << (char)i << " ";
     }
-    return 0;
 }
-    */

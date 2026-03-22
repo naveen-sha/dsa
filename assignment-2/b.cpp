@@ -1,10 +1,16 @@
-/*#include <iostream>
-using namespace std;    
+#include <iostream>
+using namespace std;
+
+// Print from L to R
 
 int main(){
-    int n;
-    cin>>n;
-    for(int i=n;i>=1;i--){
-        cout<<" "<<i;
+    int L, R;
+    cin >> L >> R;
+    for (int i = L; i <= R; i++){
+        cout << i << " ";
     }
-}*/
+    return 0;
+}
+
+
+

@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-// print from L to R.
+// Print Table of N
+
 int main(){
-    int l;
-    int r;
-    cin>>l;
-    cin>>r;
-    for(int i=l;i<=r;i++){  
-        cout<< i <<" ";
+    int N;
+    cin >> N;
+    for (int i=1;i<=10;i++){
+        cout<<N<<" * "<<i<<" = "<<N*i<<endl;
     }
     return 0;
-}      
+
+}
