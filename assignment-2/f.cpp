@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 // Sum of First N Natural Numbers using formula
 
@@ -8,4 +8,6 @@ int main(){
     int sum = (N*(N+1))/2;
     cout << sum;
     return 0;
-}
+}*/
+
+
