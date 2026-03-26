@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 
 // Print Table of N
@@ -10,5 +10,4 @@ int main(){
         cout<<N<<" * "<<i<<" = "<<N*i<<endl;
     }
     return 0;
-
-}
+}*/
