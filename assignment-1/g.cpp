@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 
 int main(){
@@ -16,3 +16,4 @@ int main(){
    cout << n<<" * 10" <<" = "<< n*10 << endl;
 };
 
+*/
