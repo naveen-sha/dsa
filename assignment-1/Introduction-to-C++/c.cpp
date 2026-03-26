@@ -1,4 +1,4 @@
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 
  int main (){
@@ -50,7 +50,7 @@ using namespace std;
    
 }
    */
-int main(){
+/*int main(){
    int n;
    int m;
    cin >> n >> m;
@@ -60,4 +60,4 @@ int main(){
    cout << n << " / " << m << " = " << n / m << endl;
    cout << n << " % " << m << " = " << n % m << endl;
    
-}
+}*/
