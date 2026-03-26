@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 
 int main(){
@@ -7,4 +7,4 @@ int main(){
     cout<<"Min = "<<min(a,min(b,c))<<endl;
     cout<<"Max = "<<max(a,max(b,c))<<endl;
     return 0;
-}
+}*/
