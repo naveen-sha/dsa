@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 
 // Sum of First N Natural Numbers using loop
@@ -12,4 +12,4 @@ int main(){
     }
     cout << sum;
     return 0;
-}
+}*/
