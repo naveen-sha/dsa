@@ -1,17 +1,13 @@
 #include <iostream>
 using namespace std;
 
-// pint number in reverse.
+int main() {
+    string s;
+    cin >> s;
 
-int main(){
-    long long n;
-    int ans=0;
-    cin>>n;
-
-    for(int i=0;n!=0;i++){
-        ans=(ans*10)+n%10;
-        n=n/10;
+    for(int i = s.size() - 1; i >= 0; i--) {
+        cout << s[i];
     }
-    cout<<ans;
 
+    return 0;
 }
