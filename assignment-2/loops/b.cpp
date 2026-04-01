@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 using namespace std;
 
 // print N to 1;
@@ -11,6 +11,6 @@ int main(){
  
     }
     return 0;
-}*/
+}
 
 

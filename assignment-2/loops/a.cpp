@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 using namespace std;
 
 // print 1 to N
@@ -10,4 +10,4 @@ int main(){
     cout<<i<<endl;
    }
     return 0;
-}*/
+}
