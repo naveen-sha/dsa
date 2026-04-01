@@ -2,7 +2,7 @@
 using namespace std;
 
 // print number in reverse order.
-/*
+
 int main(){
     int n;
     cout<<"enter a number:";
@@ -13,4 +13,4 @@ int main(){
     }
     return 0;
 
-}*/
+}
