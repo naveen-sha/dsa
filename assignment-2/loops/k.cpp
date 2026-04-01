@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// print number in reverse .
+
 int main() {
     string s;
     cin >> s;

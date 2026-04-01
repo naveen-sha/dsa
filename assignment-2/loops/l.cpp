@@ -4,7 +4,7 @@ using namespace std;
 //  sum of digits.
 
 int main(){
-    int n;
+    long long n;
     cin>>n;
     int sum=0;
     for (int i=1;n!=0;i++){

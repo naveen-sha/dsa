@@ -18,7 +18,6 @@ int main() {
         if (x % 2 == 0) even++;
         else odd++;
     }
-
     cout << pos << endl;
     cout << neg << endl;
     cout << even << endl;

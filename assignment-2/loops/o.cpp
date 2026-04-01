@@ -12,5 +12,4 @@ int main(){
         n=n/10;
     }
     return 0;
-
 }
