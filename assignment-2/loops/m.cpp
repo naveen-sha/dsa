@@ -10,8 +10,6 @@ int main(){
     for(int i=0;n!=0;i++){
         rev=(rev*10)+n%10;
         n=n/10;
-
-
     }
     cout<<rev;
     return 0;
