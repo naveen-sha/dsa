@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-// hollow vertical triangle pattern
- 
+// character rectangle pattern
+
 int main(){ 
     int n,m;
     cin >> n >> m;
