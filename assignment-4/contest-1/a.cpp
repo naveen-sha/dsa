@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+// hello codeforces
+
+int main(){
+    int n;
+    cin >> n;
+    for(int i=1;i<=n;i++){
+        cout << "Hello Codeforces " << i << endl;
+    }
+    return 0;
+}
