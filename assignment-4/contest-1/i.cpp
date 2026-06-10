@@ -1,27 +1,18 @@
 #include <iostream>
 using namespace std;
 
-// count zeroes in a number
+//  Shifted Pyramid
 
-int main() {
-    long long N;
-    cin >> N;
-
-    if (N == 0) {
-        cout << 1;
-        return 0;
+int main(){
+    int n;
+    cin >> n;
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<i;j++){
+            cout << " ";
+        }
+        for(int k=1;k<=i;k++){
+            cout << "x";
+        }
+        cout << endl;
     }
-
-    int count = 0;
-
-    while (N > 0) {
-        if (N % 10 == 0)
-            count++;
-
-        N = N / 10;
-    }
-
-    cout << count;
-
-    return 0;
 }

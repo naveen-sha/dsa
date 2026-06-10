@@ -1,24 +1,24 @@
 #include <iostream>
 using namespace std;
 
-// check good numbers
+// fizzbuzz
 
-int main() {
-    int N;
-    cin >> N;
-
-    int count = 0;
-
-    for(int i = 0; i < N; i++) {
-        int x;
-        cin >> x;
-
-        if ((x != 0 && 18 % x == 0) || (x % 45 == 0)) {
-            count++;
+int main(){
+    int n;
+    cin>> n;
+    for(int i=1;i<=n;i++){
+        if(i%3==0 && i%5==0){
+            cout << "FizzBuzz" << endl;
+        }
+        else if(i%3==0){
+            cout << "Fizz" << endl;
+        }
+        else if(i%5==0){
+            cout << "Buzz" << endl;
+        }
+        else{
+            cout << i << endl;
         }
     }
 
-    cout << count;
-
-    return 0;
 }

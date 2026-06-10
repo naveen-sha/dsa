@@ -1,16 +1,24 @@
 #include <iostream>
 using namespace std;
 
-// check leap year 
+// check good numbers
 
-int main(){
-    int n;
-    cin>>n;
-    if((n%100==0 && n%400==0) or (n%100!=0 && n%4==0)){
-        cout << "Yes" << endl;
+int main() {
+    int N;
+    cin >> N;
+
+    int count = 0;
+
+    for(int i = 0; i < N; i++) {
+        int x;
+        cin >> x;
+
+        if ((x != 0 && 18 % x == 0) || (x % 45 == 0)) {
+            count++;
+        }
     }
-    else{
-        cout << "No" << endl;
-    }
+
+    cout << count;
+
     return 0;
 }

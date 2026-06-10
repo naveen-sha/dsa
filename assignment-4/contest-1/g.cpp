@@ -1,24 +1,22 @@
 #include <iostream>
 using namespace std;
 
-// fizzbuzz
+// count zeroes in a number
 
 int main(){
     int n;
-    cin>> n;
-    for(int i=1;i<=n;i++){
-        if(i%3==0 && i%5==0){
-            cout << "FizzBuzz" << endl;
-        }
-        else if(i%3==0){
-            cout << "Fizz" << endl;
-        }
-        else if(i%5==0){
-            cout << "Buzz" << endl;
-        }
-        else{
-            cout << i << endl;
-        }
+    cin >>n;
+    if(n==0){
+        cout << 1 << endl;
+        return 0;
     }
-
+    int count = 0;
+    while(n > 0){
+        if(n % 10 == 0){
+            count++;
+        }
+        n = n / 10;
+    }
+    cout << count << endl;
+    return 0;
 }
