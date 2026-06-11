@@ -8,7 +8,6 @@ int main(){
     cin>>n;
     for(int i=1;i<=n;i++){
         cout <<"I am learning functions"<<endl;
-
     }
     cout <<endl;
     return 0;
