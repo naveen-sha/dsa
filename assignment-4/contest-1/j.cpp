@@ -11,8 +11,10 @@ int main() {
     for (int i = 0; i < N; i++) {
 
         // spaces
-        for (int j = 0; j < i; j++)
-            cout << " ";
+        for (int j = 0; j < i; j++){
+              cout << " ";
+
+        }
 
         // dots
         for (int j = 0; j < N - i; j++) {
