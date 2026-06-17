@@ -30,7 +30,7 @@ int main(){
    cout<<a<<endl;*/
    /* int a=2/5;
    cout<<a<<endl;*/
-// this is beacuse when we devide int/int it give us int and when we divide float/int it give us float.basically thee firt datatype is what then the output is that datatype.
+// this is beacuse when we devide int/int it give us int and when we divide float/int it give us float.basically the first datatype is what then the output is that datatype.
 // relationl opertors ..
 /*int a=7;
 int b=5;
