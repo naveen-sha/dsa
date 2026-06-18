@@ -107,7 +107,7 @@ int main(){
   return 0;
 }*/
 
-int main(){
+/*int main(){
   int n;
   cin>> n;
   int count=0;
@@ -118,7 +118,7 @@ int main(){
   }
   cout <<count<<endl;
 }
-
+*/
 
    
    
