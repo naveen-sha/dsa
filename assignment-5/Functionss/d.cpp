@@ -12,9 +12,9 @@ int checkprime (int n){
     }        
 
     if(count==2){
-        cout<<"Prime";
+        cout<< "Prime";
     }else{
-        cout<<"Not Prime";
+        cout<< "Not Prime";
     }
     return 0;
 }
