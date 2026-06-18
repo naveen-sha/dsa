@@ -1,4 +1,5 @@
 #include <iostream>
+#include <type_traits>
 using namespace std;
 
 // ...........................................................................................................................................................
@@ -86,8 +87,8 @@ int main(){
     . void --> prints only
 
 */
-
-int factor(int n){
+// factor of an number..................
+/*int factor(int n){
   for(int i=1;i<n;i++){
     if(n%i==0){
      
@@ -104,8 +105,7 @@ int main(){
   int fact=factor(n);
   cout<< fact<<endl;
   return 0;
-}
-
+}*/
 
 
    
