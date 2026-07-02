@@ -119,6 +119,26 @@ int main(){
   cout <<count<<endl;
 }
 */
+// today is 2 july 2026 now we learn  variable scoping ................................................................................................
 
-   
-   
+// scoping where varibles are declared and where they can be accessed.
+/*int x=10;
+int main(){
+  int x=20;
+   cout<<::x<< endl;// we can this:: to access globle variable.
+}*/
+   // if we have multiple we can print the closest one.
+   //example of scoping 
+
+   /*int x=10;
+   void fun(){
+    int x=20;
+    cout<<x<<endl;
+   }
+
+   int main(){
+    cout<<x<<endl;
+    fun();
+    cout<<x<<endl;
+   }*/
+  
