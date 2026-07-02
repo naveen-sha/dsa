@@ -141,4 +141,19 @@ int main(){
     fun();
     cout<<x<<endl;
    }*/
-  
+
+  //  overflow 
+
+/*
+when the value of a variable exceeds the maximum value it can hold, it is called overflow.
+int have a maximum value of 2^31-1=2147483647
+long long have a maximum value of 2^63-1=9223372036854775807
+from remove it we can use #int long long to avoid overflow.
+and but we can change int main to signed main().
+then it will work for both int and long long.
+*/
+/*# define int long long
+int main(){
+  cout <<1000000000000000000<<endl;
+
+}*/
