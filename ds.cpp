@@ -125,7 +125,7 @@ int main(){
 /*int x=10;
 int main(){
   int x=20;
-   cout<<::x<< endl;// we can this:: to access globle variable.
+   cout<<::x<< endl;// we can this::scope resolution  to access globle variable.
 }*/
    // if we have multiple we can print the closest one.
    //example of scoping 
