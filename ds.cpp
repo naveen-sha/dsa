@@ -192,8 +192,6 @@ arr[2]=true;
 
 }
 
-
-
 .................................................
 
 once you created and array ,all element can have any random value (often reffered as garbage value).
@@ -221,3 +219,4 @@ int main(){
     }
 
 }*/
+
