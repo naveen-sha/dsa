@@ -177,6 +177,47 @@ int a [20];
 float b[30];
 long long c[500];
 
+#advanced.......................................
+
+if we want to store all data type vale .
+
+use 
+
+variant <int,float,bool>arr[3];
+int main(){
+
+arr[0]=10;
+arr[1]=3.14f;
+arr[2]=true;
+
+}
+
+
+
+.................................................
+
 once you created and array ,all element can have any random value (often reffered as garbage value).
 
+int main(){
+  int a[5]={};
+  cout<<a<<endl;
+// } give random garbage value.
+
 */
+/*
+..................................................................................................
+
+// print array in reverse order
+
+int main(){
+    int n;
+    cin>>n;
+    int a[n];
+    for(int i=0;i<=n-1;i++){
+        cin>>a[i];
+    }
+    for(int i=n-1;i>=0;i--){
+        cout<< a[i]<<" ";
+    }
+
+}*/
