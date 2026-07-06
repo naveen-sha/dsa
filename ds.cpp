@@ -162,3 +162,21 @@ int main(){
 //...............................................................................................................................................................
 //..............................Arrays...........................................................................................................................................
 
+/*
+arrays is a collection of similar kind of data stored together at continous memory location .
+
+it helps us create multiple data variable of same data type using a single name.
+
+indexing start from zero and n-1 ,where n is total no. of element in the array.
+*/
+/*
+#creating an array.
+
+datatype arrayname[number_of_element];
+int a [20];
+float b[30];
+long long c[500];
+
+once you created and array ,all element can have any random value (often reffered as garbage value).
+
+*/
