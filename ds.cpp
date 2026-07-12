@@ -220,3 +220,29 @@ int main(){
 
 }*/
 
+//..........................................................................................................................
+
+//for sum of arrays
+ int sumofarray(int n){
+
+  int arr[n];
+  for(int i=0;i<=n-1;i++){
+    cin>>arr[i];
+
+  }
+  int sum=0;
+
+  for(int i=0;i<=n-1;i++){
+    sum+=arr[i];
+  }
+  return sum;
+ 
+
+ }
+ int main(){
+  int n;
+  cin>>n;
+  int sum = sumofarray(n);
+  cout<<sum<<endl;
+
+ }
