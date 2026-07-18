@@ -222,7 +222,7 @@ int main(){
 
 //..........................................................................................................................
 
-//for sum of arrays
+/*//for sum of arrays
  int sumofarray(int n){
 
   int arr[n];
@@ -245,4 +245,4 @@ int main(){
   int sum = sumofarray(n);
   cout<<sum<<endl;
 
- }
+ }*/
